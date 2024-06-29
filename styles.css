@@ -199,6 +199,29 @@ color: #fff;
 }
 
 
+@media(max-width:991px){
+
+    body{
+        padding: 30px;
+    }
+    .main-content{
+        width: 100%;
+    }
+    .texto{
+        top: 50px;
+        padding: 0;
+    }
+
+    .texto h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .texto p{
+        font-size: 15px;
+    }
+}
+
+
 /* Muestras */
 .image-container {
     max-width: auto;
@@ -268,4 +291,16 @@ padding: auto;
 color: #8b8b83;
 text-decoration: none;
 
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    .grid {
+        grid-template-columns: repeat(1, 1fr); /* Cambia a 2 columnas en dispositivos pequeños */
+    }
+    .image-container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
